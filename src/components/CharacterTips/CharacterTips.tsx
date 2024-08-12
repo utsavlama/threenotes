@@ -4,10 +4,10 @@ import { useStyles } from './../StyleContext'; // Import the useStyles hook
 type TipProps = {
     tips: string;
     training: string[];
+    styles?: any;
 };
 
-const getTipComponents = ({ tips, training }: TipProps): (React.ReactNode | string)[] => {
-    const styles = useStyles();
+const getTipComponents = ({ tips, training, styles }: TipProps): (React.ReactNode | string)[] => {
 
     let trainingIndex = training.map((item: string) => ({
         index: tips.indexOf(item),
@@ -33,7 +33,8 @@ const getTipComponents = ({ tips, training }: TipProps): (React.ReactNode | stri
 };
 
 const CharacterTips = ({ tips, training }: TipProps) => {
-    let styledTips = getTipComponents({ tips, training });
+    const styles = useStyles();
+    let styledTips = getTipComponents({ tips, training, styles });
     return <>{styledTips.map((item, index) => <React.Fragment key={index}>{item}</React.Fragment>)}</>;
 };
 
