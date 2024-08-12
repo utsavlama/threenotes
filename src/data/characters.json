@@ -1,0 +1,198 @@
+{
+    "characters": [
+        {
+            "name": "Edelgard",
+            "training": [
+                "Axes",
+                "Authority",
+                "Heavy Armor"
+            ],
+            "tips": "Edelgard is your main powerhouse; focus on Axes, Authority, and Heavy Armor. Prepare her for her unique class, Emperor, by prioritizing these skills.",
+            "classProgression": [
+                {
+                    "progression": "Fighter → Brigand → Armored Knight → Emperor",
+                    "requirements": "Axe D → C → B, Authority C, Heavy Armor B",
+                    "howLong": "Fighter until Lv 10, Brigand until Lv 20, Armored Knight until Lv 30, Emperor for endgame",
+                    "tips": "Train Edelgard in Axes and Heavy Armor early on to prepare her for the Emperor class."
+                }
+            ]
+        },
+        {
+            "name": "Byleth",
+            "training": [
+                "Swords",
+                "Bows",
+                "Faith"
+            ],
+            "tips": "Byleth is versatile; focus on Swords and Faith for a balanced approach. Take advantage of their unique class, Enlightened One, which blends offense and healing.",
+            "classProgression": [
+                {
+                    "progression": "Myrmidon → Mercenary → Assassin → Enlightened One",
+                    "requirements": "Sword D → C → B → A, Bow C, Faith C",
+                    "howLong": "Myrmidon until Lv 10, Mercenary until Lv 20, Assassin until Lv 30, Enlightened One for endgame",
+                    "tips": "Focus on Sword and Faith to fully utilize Byleth's potential as Enlightened One."
+                }
+            ]
+        },
+        {
+            "name": "Hubert",
+            "training": [
+                "Reason",
+                "Authority"
+            ],
+            "tips": "Hubert excels in dark magic; focus on Reason and Authority to enhance his support capabilities and damage output.",
+            "classProgression": [
+                {
+                    "progression": "Monk → Mage → Warlock → Dark Bishop",
+                    "requirements": "Reason D → C → B → A, Authority C",
+                    "howLong": "Monk until Lv 10, Mage until Lv 20, Warlock until Lv 30, Dark Bishop for endgame",
+                    "tips": "Focus on Reason to maximize Hubert's dark magic abilities, and prepare him for the Dark Bishop class."
+                }
+            ]
+        },
+        {
+            "name": "Dorothea",
+            "training": [
+                "Reason",
+                "Faith"
+            ],
+            "tips": "Dorothea is a versatile magic user; prioritize training her in Reason and Faith to develop her into a powerful Gremory.",
+            "classProgression": [
+                {
+                    "progression": "Monk → Mage → Warlock → Gremory",
+                    "requirements": "Reason D → C → B → A, Faith C",
+                    "howLong": "Monk until Lv 10, Mage until Lv 20, Warlock until Lv 30, Gremory for endgame",
+                    "tips": "Balancing Reason and Faith will allow Dorothea to shine as a Gremory."
+                }
+            ]
+        },
+        {
+            "name": "Ferdinand",
+            "training": [
+                "Lances",
+                "Riding"
+            ],
+            "tips": "Ferdinand excels in mounted combat; focus on Lances and Riding to make him an effective Paladin.",
+            "classProgression": [
+                {
+                    "progression": "Soldier → Cavalier → Paladin → Great Knight",
+                    "requirements": "Lance D → C → B → A, Riding C",
+                    "howLong": "Soldier until Lv 10, Cavalier until Lv 20, Paladin until Lv 30, Great Knight for endgame",
+                    "tips": "Prioritize Lances and Riding early to prepare Ferdinand for the Paladin and Great Knight classes."
+                }
+            ]
+        },
+        {
+            "name": "Bernadetta",
+            "training": [
+                "Bows",
+                "Lances"
+            ],
+            "tips": "Bernadetta is a sharpshooter; prioritize Bows and Lances to develop her into a deadly Sniper.",
+            "classProgression": [
+                {
+                    "progression": "Fighter → Archer → Sniper → Bow Knight",
+                    "requirements": "Bow D → C → B → A, Lance C, Riding B",
+                    "howLong": "Fighter until Lv 10, Archer until Lv 20, Sniper until Lv 30, Bow Knight for endgame",
+                    "tips": "Focus on Bow skills early to maximize Bernadetta's effectiveness as a Sniper and Bow Knight."
+                }
+            ]
+        },
+        {
+            "name": "Caspar",
+            "training": [
+                "Brawling",
+                "Axes"
+            ],
+            "tips": "Caspar is a fierce brawler; focus on Brawling and Axes to unleash his potential as a War Master.",
+            "classProgression": [
+                {
+                    "progression": "Fighter → Brigand → Grappler → War Master",
+                    "requirements": "Brawling D → C → B → A, Axe C",
+                    "howLong": "Fighter until Lv 10, Brigand until Lv 20, Grappler until Lv 30, War Master for endgame",
+                    "tips": "Develop Caspar's Brawling skills early to prepare him for the War Master class."
+                }
+            ]
+        },
+        {
+            "name": "Petra",
+            "training": [
+                "Swords",
+                "Bows"
+            ],
+            "tips": "Petra is swift and deadly; focus on Swords and Bows to develop her into a powerful Assassin.",
+            "classProgression": [
+                {
+                    "progression": "Myrmidon → Thief → Assassin → Wyvern Lord",
+                    "requirements": "Sword D → C → B → A, Bow C, Flying A",
+                    "howLong": "Myrmidon until Lv 10, Thief until Lv 20, Assassin until Lv 30, Wyvern Lord for endgame",
+                    "tips": "Train Petra in Swords and Bows early to maximize her speed and damage as an Assassin."
+                }
+            ]
+        },
+        {
+            "name": "Linhardt",
+            "training": [
+                "Faith",
+                "Reason"
+            ],
+            "tips": "Linhardt is a gifted healer and scholar; prioritize Faith and Reason to make him an essential support unit as a Bishop.",
+            "classProgression": [
+                {
+                    "progression": "Monk → Priest → Bishop",
+                    "requirements": "Faith D → C → B → A, Reason C",
+                    "howLong": "Monk until Lv 10, Priest until Lv 20, Bishop for endgame",
+                    "tips": "Focus on Faith to ensure Linhardt is prepared to fulfill his role as a Bishop."
+                }
+            ]
+        },
+        {
+            "name": "Shamir",
+            "training": [
+                "Bows",
+                "Lances"
+            ],
+            "tips": "Shamir is an expert sniper; focus on her Bows skill to maximize her damage output as a Sniper and Lances as secondary close-range weapon.",
+            "classProgression": [
+                {
+                    "progression": "Archer → Sniper → Bow Knight",
+                    "requirements": "Bow D → C → B → A, Lance C, Riding B",
+                    "howLong": "Archer until Lv 20, Sniper until Lv 30, Bow Knight for endgame",
+                    "tips": "Concentrate on Bow training to make a fearsome Sniper and Bow Knight."
+                }
+            ]
+        },
+        {
+            "name": "Manuela",
+            "training": [
+                "Faith",
+                "Swords"
+            ],
+            "tips": "Manuela excels in both healing and combat; focus on Faith to develop her into a powerful Bishop and Swords for clobse-ranged combat.",
+            "classProgression": [
+                {
+                    "progression": "Priest → Bishop",
+                    "requirements": "Faith D → C → B → A, Sword C",
+                    "howLong": "Priest until Lv 20, Bishop for endgame",
+                    "tips": "Focus on Faith to maximize healing abilities as a Bishop."
+                }
+            ]
+        },
+        {
+            "name": "Mercedes",
+            "training": [
+                "Faith",
+                "Reason"
+            ],
+            "tips": "Mercedes is a gifted mage; prioritize Faith and Reason to make her an essential healer and damage dealer in the Bishop class.",
+            "classProgression": [
+                {
+                    "progression": "Monk → Priest → Bishop",
+                    "requirements": "Faith D → C → B → A, Reason C",
+                    "howLong": "Monk until Lv 10, Priest until Lv 20, Bishop for endgame",
+                    "tips": "Balance Faith and Reason to prepare Mercedes for her role as a Bishop."
+                }
+            ]
+        }
+    ]
+}

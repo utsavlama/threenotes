@@ -1,0 +1,105 @@
+.character {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.character:hover {
+    background-color: #ffeef0;
+}
+
+.character h2 {
+    color: #d8345f;
+    margin-top: 0;
+    grid-column: span 2;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.characterImage {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    /* Apply the gradient to the image */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.training,
+.classProgression {
+    padding: 10px;
+    border-left: 4px solid #d8345f;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.classProgression {
+    background-color: #f3f3f3;
+}
+.classHighlight,
+.classStep span.classHighlight {
+    font-size: 0.725rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid aquamarine;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+.important {
+    background-color: rgba(255, 215, 0, 0.5);
+    padding: 2.5px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn:hover {
+    color: #d8345f;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.classStep {
+    margin-bottom: 15px;
+}
+
+.classStep p {
+    margin: 5px 0;
+    font-weight: 900;
+}
+
+.classStep span {
+    display: block;
+    margin-left: 10px;
+    font-weight: normal;
+}
